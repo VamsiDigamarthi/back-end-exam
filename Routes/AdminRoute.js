@@ -1,12 +1,15 @@
 import express from "express";
 import {
   onAddExams,
+  onAddFeedBacks,
   onAddQuestion,
   onAddStudent,
   onFetchAllBatchWiseStudent,
   onFetchAllExamSections,
   onFetchAllResults,
 } from "../Controllers/AdminController.js";
+import { CheckingUser } from "../Middlewares/CheckingUser.js";
+import { authenticateToken } from "../Middlewares/AuthMiddleware.js";
 
 const router = express.Router();
 
@@ -23,5 +26,8 @@ router.get("/all-exam-sections", onFetchAllExamSections);
 // all- exam details
 
 router.get("/all-results", onFetchAllResults);
+
+// add feedbacks
+router.post("/feed-backs", authenticateToken, CheckingUser, onAddFeedBacks);
 
 export default router;

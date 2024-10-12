@@ -43,6 +43,10 @@ const StudentExamSchema = new Schema(
       type: String,
       required: true,
     },
+
+    level: {
+      type: String,
+    },
     headOfOrganization: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "User",

@@ -1,4 +1,5 @@
 import UserModel from "../Modals/AuthModal.js";
+import FeedBackModel from "../Modals/FeedbackModal.js";
 import Question from "../Modals/QuestionModal.js";
 import StudentExamModel from "../Modals/StudentExamModal.js";
 import nodemailer from "nodemailer";
@@ -21,7 +22,7 @@ export const onAddStudent = async (req, res) => {
           role: "student",
           course: student.course,
           batchName: student.batchName, // batchId
-          purpose : student.purpose
+          purpose: student.purpose,
         });
 
         const savedUser = await newUser.save();
@@ -254,6 +255,7 @@ export const onAddExams = async (req, res) => {
     examsSections,
     students,
     resultType,
+    level,
     description,
   } = req.body;
   try {
@@ -266,6 +268,7 @@ export const onAddExams = async (req, res) => {
       passKey,
       purpose,
       resultType,
+      level,
       description,
       examsSections: examsSections,
       students: students,
@@ -311,5 +314,50 @@ export const onFetchAllResults = async (req, res) => {
     return res
       .status(500)
       .json({ error: error.message, message: "Failed to fetch all results" });
+  }
+};
+
+// add feedbacks
+
+export const onAddFeedBacks = async (req, res) => {
+  const { user } = req;
+  const { testId, course, testUniqueId, feedbackQuestions } = req.body;
+
+  let transformedArray = feedbackQuestions?.map((obj) => {
+    let {
+      feedbackoptionone,
+      feedbackoptionsecond,
+      feedbackoptionthird,
+      feedbackoptionfouth,
+      ...rest
+    } = obj; // Destructuring to remove "email"
+    return {
+      ...rest,
+      options: [
+        feedbackoptionone,
+        feedbackoptionsecond,
+        feedbackoptionthird,
+        feedbackoptionfouth,
+      ],
+    }; // Adding "city" field
+  });
+
+  const doc = {
+    testId,
+    course,
+    testUniqueId,
+    author: user._id,
+    feedbackQuestions: transformedArray,
+  };
+
+  try {
+    const newFeedback = new FeedBackModel(doc);
+    await newFeedback.save();
+    res.status(201).json({ message: "Feedback added successfully" });
+  } catch (error) {
+    console.log({ error: error.message, message: "Failed to add feedback" });
+    return res
+      .status(500)
+      .json({ error: error.message, message: "Failed to add feedback" });
   }
 };

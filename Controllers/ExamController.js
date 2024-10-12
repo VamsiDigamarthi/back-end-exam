@@ -90,7 +90,6 @@ export const onFetchExamDetails = async (req, res) => {
 
 export const onSubmittedData = async (req, res) => {
   const { email, exmDetails, examId } = req.body;
-  console.log(email, exmDetails);
 
   try {
     const existingExam = await StudentExamModel.findOne({

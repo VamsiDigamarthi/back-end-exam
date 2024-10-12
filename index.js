@@ -8,6 +8,8 @@ import AuthRoute from "./Routes/AuthRoute.js";
 import AdminRoute from "./Routes/AdminRoute.js";
 import Question from "./Modals/QuestionModal.js";
 import Exam from "./Routes/ExamRoute.js";
+import Todo from "./Routes/TodoRoute.js";
+import FeedBack from "./Routes/FeedBackRoute.js";
 
 const app = express();
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
@@ -52,6 +54,10 @@ app.use("/auth", AuthRoute);
 app.use("/admin", AdminRoute);
 
 app.use("/exam", Exam);
+
+app.use("/todo", Todo);
+
+app.use("/feedback", FeedBack);
 
 app.patch("/add-examId", async (req, res) => {
   const { level, courseName } = req.body;
