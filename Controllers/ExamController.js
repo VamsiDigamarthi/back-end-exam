@@ -3,7 +3,7 @@ import Question from "../Modals/QuestionModal.js";
 import StudentExamModel from "../Modals/StudentExamModal.js";
 
 export const onFetchExamDetails = async (req, res) => {
-  const { sections, examId, email } = req.body;
+  const { sections, examId, email, password } = req.body;
 
   try {
     // Validate input
@@ -17,6 +17,11 @@ export const onFetchExamDetails = async (req, res) => {
     const existingUser = await UserModel.findOne({ email: email });
     if (!existingUser) {
       return res.status(404).json({ message: "User not found..." });
+    }
+
+    // Check if password is correct
+    if (password !== existingUser.password) {
+      return res.status(401).json({ message: "Incorrect password." });
     }
 
     // Check if exam exists
