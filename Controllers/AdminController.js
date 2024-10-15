@@ -3,6 +3,7 @@ import FeedBackModel from "../Modals/FeedbackModal.js";
 import Question from "../Modals/QuestionModal.js";
 import StudentExamModel from "../Modals/StudentExamModal.js";
 import nodemailer from "nodemailer";
+import StudentFeedBack from "../Modals/StudentFeedBack.js";
 export const onAddStudent = async (req, res) => {
   const { studentDataExel } = req.body;
 
@@ -284,7 +285,7 @@ export const onAddExams = async (req, res) => {
       const sectionIds = examsSections
         .map((section) => section.examId)
         .join(",");
-      const examUrl = `http://localhost:3000/exam-instructions/${newExam._id}/?sections=${sectionIds}`;
+      const examUrl = `https://examwebsiteapi.nuhvin.com/exam-instructions/${newExam._id}/?sections=${sectionIds}`;
 
       sendEmails(obj, courseName, date, time, passKey, examUrl);
     });
@@ -359,5 +360,31 @@ export const onAddFeedBacks = async (req, res) => {
     return res
       .status(500)
       .json({ error: error.message, message: "Failed to add feedback" });
+  }
+};
+
+export const onFecthStudentFeedbacks = async (req, res) => {
+  try {
+    const feedbacks = await StudentFeedBack.find({})
+      .populate({
+        path: "testId",
+        select: "testId batchName courseName head", // Specify the fields you want from StudentExam
+      })
+      .populate({
+        path: "head",
+        select: "name email role", // Specify the fields you want from User
+      })
+      .exec();
+
+    res.status(200).json(feedbacks);
+  } catch (error) {
+    console.log({
+      error: error.message,
+      message: "Failed to add feedback for students",
+    });
+    return res.status(500).json({
+      error: error.message,
+      message: " failed to add feedback for students ",
+    });
   }
 };

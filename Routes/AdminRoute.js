@@ -4,6 +4,7 @@ import {
   onAddFeedBacks,
   onAddQuestion,
   onAddStudent,
+  onFecthStudentFeedbacks,
   onFetchAllBatchWiseStudent,
   onFetchAllExamSections,
   onFetchAllResults,
@@ -29,5 +30,12 @@ router.get("/all-results", onFetchAllResults);
 
 // add feedbacks
 router.post("/feed-backs", authenticateToken, CheckingUser, onAddFeedBacks);
+
+router.get(
+  "/all-student-feedback",
+  // authenticateToken,
+  // CheckingUser,
+  onFecthStudentFeedbacks
+);
 
 export default router;
