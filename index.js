@@ -10,6 +10,8 @@ import Question from "./Modals/QuestionModal.js";
 import Exam from "./Routes/ExamRoute.js";
 import Todo from "./Routes/TodoRoute.js";
 import FeedBack from "./Routes/FeedBackRoute.js";
+import Student from "./Routes/StudentRoute.js";
+import Quize from "./Routes/QuizeRoute.js";
 
 const app = express();
 app.use(bodyParser.json({ limit: "30mb", extended: true }));
@@ -24,7 +26,7 @@ app.use(
 
 app.use(express.json());
 // app.use("/uploads", express.static("uploads"));
-
+app.use("/files", express.static("files"));
 app.use((req, res, next) => {
   res.setHeader("Access-Control-Allow-Origin", "*");
   res.setHeader(
@@ -58,6 +60,10 @@ app.use("/exam", Exam);
 app.use("/todo", Todo);
 
 app.use("/feedback", FeedBack);
+
+app.use("/student", Student);
+
+app.use("/quiz", Quize);
 
 app.patch("/add-examId", async (req, res) => {
   const { level, courseName } = req.body;

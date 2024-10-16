@@ -4,6 +4,8 @@ import Question from "../Modals/QuestionModal.js";
 import StudentExamModel from "../Modals/StudentExamModal.js";
 import nodemailer from "nodemailer";
 import StudentFeedBack from "../Modals/StudentFeedBack.js";
+import MaterialModel from "../Modals/MaterialModal.js";
+import QuizeModal from "../Modals/QuizeModal.js";
 export const onAddStudent = async (req, res) => {
   const { studentDataExel } = req.body;
 
@@ -58,8 +60,13 @@ export const onAddQuestion = async (req, res) => {
         answers: [option1, option2, option3, option4, option5].filter(Boolean),
       };
     });
-    // console.log(transformedArray);
-    const questions = await Question.insertMany(transformedArray);
+
+    let questions;
+    if (transformedArray?.[0]?.examType === "quize") {
+      questions = await QuizeModal.insertMany(transformedArray);
+    } else {
+      questions = await Question.insertMany(transformedArray);
+    }
 
     return res
       .status(201)
@@ -386,5 +393,58 @@ export const onFecthStudentFeedbacks = async (req, res) => {
       error: error.message,
       message: " failed to add feedback for students ",
     });
+  }
+};
+
+export const onFetchAllCourseDetails = async (req, res) => {
+  try {
+    const courses = await UserModel.distinct("course");
+    res.status(200).json(courses);
+  } catch (error) {
+    console.log({
+      error: error.message,
+      message: "Failed to fetch all Course",
+    });
+    return res
+      .status(500)
+      .json({ error: error.message, message: "Failed to fetch all Course" });
+  }
+};
+
+export const onAddMaterials = async (req, res) => {
+  const { courseName, topic, passkey, selectType, availableOn, description } =
+    req.body;
+  // console.log(req.body);
+  // console.log(req.file);
+  try {
+    const docs = {
+      courseName,
+      topic,
+      passkey,
+      selectType,
+      availableOn,
+      description,
+      pdf: req.file.path,
+      // Author: user._id,
+    };
+
+    const newUser = new MaterialModel(docs);
+    await newUser.save();
+    return res.status(201).json({ message: "updaload materials..!" });
+  } catch (error) {
+    console.log("login user- errors", error);
+    return res.status(500).json({ message: "Something went wrong", error });
+  }
+};
+
+export const onFetchMaterials = async (req, res) => {
+  try {
+    const materials = await MaterialModel.find({});
+    res.status(200).json(materials);
+  } catch (error) {
+    console.log({ error: error.message, message: "Failed to fetch materials" });
+    return res
+      .status(500)
+      .json({ error: error.message, message: "Failed to fetch materials" });
   }
 };
