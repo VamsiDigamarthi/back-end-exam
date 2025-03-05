@@ -292,7 +292,7 @@ export const onAddExams = async (req, res) => {
       const sectionIds = examsSections
         .map((section) => section.examId)
         .join(",");
-      const examUrl = `https://examwebsiteapi.nuhvin.com/exam-instructions/${newExam._id}/?sections=${sectionIds}`;
+      const examUrl = `https://exam.nuhvin.com/exam-instructions/${newExam._id}/?sections=${sectionIds}`;
 
       sendEmails(obj, courseName, date, time, passKey, examUrl);
     });

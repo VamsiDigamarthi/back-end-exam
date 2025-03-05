@@ -1,0 +1,1780 @@
+{
+  "_id": {
+    "$oid": "67319c1ff635127b3d4fd9b3"
+  },
+  "testId": "java 1910",
+  "batchName": "java",
+  "courseName": "java batch",
+  "date": "2024-11-11",
+  "time": "11:30",
+  "passKey": "12345",
+  "purpose": "java exam",
+  "resultType": "display",
+  "level": "Easy",
+  "examsSections": [
+    {
+      "examId": "154001",
+      "totalMarks": "40",
+      "cutOff": "20",
+      "courseName": "Fullstack Java",
+      "topic": "core java",
+      "_id": {
+        "$oid": "67319c1ff635127b3d4fd9b4"
+      }
+    }
+  ],
+  "students": [
+    {
+      "email": "krishnavamshi0108@gmail.com",
+      "name": "Vamshi Krishna",
+      "studentId": {
+        "$oid": "672f3735f635127b3d4fd951"
+      },
+      "_id": {
+        "$oid": "672f3735f635127b3d4fd951"
+      },
+      "afterWritingExams": [
+        {
+          "_id": "67319c1ff635127b3d4fd9b4",
+          "courseName": "java batch",
+          "answers": [
+            {
+              "answer": "int",
+              "correctAnswer": "Integer",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd965",
+                "question": " Which of the following is a wrapper class in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int", "Integer", "float", "String"],
+                "CorrectAnswer": "Integer",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "String s = new String(\"Hello\");",
+              "correctAnswer": "Both A and B",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd968",
+                "question": "Which of these is the correct way to create an object of the String class?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "String s = new String(\"Hello\");",
+                  "String s = \"Hello\";",
+                  "Both A and B",
+                  "None of the above"
+                ],
+                "CorrectAnswer": "Both A and B",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "repeat",
+              "correctAnswer": "repeat",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97c",
+                "question": "Which of the following is not a loop in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["for", "while", "repeat", "do-while"],
+                "CorrectAnswer": "repeat",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "abstract",
+              "correctAnswer": "final",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95b",
+                "question": "Which keyword is used to prevent inheritance in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["final", "static", "private", "abstract"],
+                "CorrectAnswer": "final",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "final int MY_CONSTANT = 10;",
+              "correctAnswer": "final int MY_CONSTANT = 10;",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96d",
+                "question": "Which of the following is the correct syntax to declare a constant in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "const int MY_CONSTANT = 10;",
+                  "final int MY_CONSTANT = 10;",
+                  "int MY_CONSTANT = 10;",
+                  "constant int MY_CONSTANT = 10;"
+                ],
+                "CorrectAnswer": "final int MY_CONSTANT = 10;",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "13",
+              "correctAnswer": "13",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd967",
+                "question": "What is the output of the following code snippet?  int a = 5; System.out.println(a++ + ++a);",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["10", "11", "12", "13"],
+                "CorrectAnswer": "13",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "Depends on the data type",
+              "correctAnswer": "No default value",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95a",
+                "question": "What is the default value of a local variable in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "null",
+                  "0",
+                  "Depends on the data type",
+                  "No default value"
+                ],
+                "CorrectAnswer": "No default value",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "public",
+              "correctAnswer": "public",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95e",
+                "question": "Which of these access specifiers can be used for a top-level class in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["private", "protected", "public", "static"],
+                "CorrectAnswer": "public",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "int arr[] = new int[5];",
+              "correctAnswer": "int arr[] = new int[5];",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd977",
+                "question": "Which of the following statements correctly declares an array in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "int arr[] = new int[5];",
+                  "int arr[5];",
+                  "int arr = new int[5];",
+                  "arr{5};"
+                ],
+                "CorrectAnswer": "int arr[] = new int[5];",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "extends",
+              "correctAnswer": "extends",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd969",
+                "question": "Which keyword is used to inherit a class in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["this", "extends", "implements", "import"],
+                "CorrectAnswer": "extends",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "6",
+              "correctAnswer": "6",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97b",
+                "question": "What is the output of the following code?   int x = 5; System.out.println(++x);",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["4", "5", "6", "7"],
+                "CorrectAnswer": "6",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "It will give a compile-time error.",
+              "correctAnswer": "It will give a compile-time error.",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd963",
+                "question": "What will happen if we declare the main method as private in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  " It will run normally.",
+                  "It will give a runtime error.",
+                  "It will give a compile-time error.",
+                  "It will execute but will be considered deprecated."
+                ],
+                "CorrectAnswer": "It will give a compile-time error.",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "No default value",
+              "correctAnswer": "No default value",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95a",
+                "question": "What is the default value of a local variable in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "null",
+                  "0",
+                  "Depends on the data type",
+                  "No default value"
+                ],
+                "CorrectAnswer": "No default value",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "long",
+              "correctAnswer": "double",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd976",
+                "question": "Which of the following data types can hold the largest value?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int", "long", "float", "double"],
+                "CorrectAnswer": "double",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "Constructors have the same name as the class.",
+              "correctAnswer": "Constructors have the same name as the class.",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95f",
+                "question": "Which of the following is true about a constructor?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "Constructors have the same name as the class.",
+                  "Constructors cannot be overloaded.",
+                  "Constructors must have a return type.",
+                  "Constructors are invoked explicitly using a method call."
+                ],
+                "CorrectAnswer": "Constructors have the same name as the class.",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "Blueprint for objects",
+              "correctAnswer": "Blueprint for objects",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd979",
+                "question": "In Java, a class is a:",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "Blueprint for objects",
+                  " Instance of an object",
+                  "Variable",
+                  "Method"
+                ],
+                "CorrectAnswer": "Blueprint for objects",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "8 bytes",
+              "correctAnswer": "8 bytes",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd975",
+                "question": "What is the size of a double in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["4 bytes", "8 bytes", "16 bytes", "32 bytes"],
+                "CorrectAnswer": "8 bytes",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "extends, implements",
+              "correctAnswer": "extends, implements",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97a",
+                "question": "Which keyword is used in Java to inherit a class and implement an interface?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "extends, implements",
+                  "implement, extends",
+                  "extends, extend",
+                  "implement, implement"
+                ],
+                "CorrectAnswer": "extends, implements",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "4 bytes",
+              "correctAnswer": "4 bytes",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95c",
+                "question": "In Java, int occupies how many bytes?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["2 bytes", "4 bytes", "8 bytes", "16 bytes"],
+                "CorrectAnswer": "4 bytes",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "execute()",
+              "correctAnswer": "start()",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95d",
+                "question": "Which method is used to start a thread execution in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["run()", "start()", "execute()", "init()"],
+                "CorrectAnswer": "start()",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "this",
+              "correctAnswer": "super",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97f",
+                "question": "Which keyword is used to call the parent class constructor in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["this", "parent", "base", "super"],
+                "CorrectAnswer": "super",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "25",
+              "correctAnswer": "25",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96b",
+                "question": "What will be the output of the following code?  System.out.println(5 * 5);",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["10", "15", "25", "30"],
+                "CorrectAnswer": "25",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "FALSE",
+              "correctAnswer": "TRUE",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96f",
+                "question": " What is the default value of a boolean variable in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["0", "1", "TRUE", "FALSE"],
+                "CorrectAnswer": "TRUE",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "import package.*;",
+              "correctAnswer": "import package.*;",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd962",
+                "question": "Which of the following is the correct syntax to import all classes in a package?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "import package.*",
+                  "import package.*;",
+                  "include package.*;",
+                  "include package.*"
+                ],
+                "CorrectAnswer": "import package.*;",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "It is used to exit a loop or switch statement.",
+              "correctAnswer": "It is used to exit a loop or switch statement.",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd971",
+                "question": "Which statement is true about the break keyword?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "It is used to exit a loop or switch statement.",
+                  " It is used to pause execution.",
+                  "It only works in for loops.",
+                  " It can only be used in if statements."
+                ],
+                "CorrectAnswer": "It is used to exit a loop or switch statement.",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "boolean",
+              "correctAnswer": "String",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd959",
+                "question": "Which of the following is not a primitive data type in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int", "boolean", "String", "char"],
+                "CorrectAnswer": "String",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "constructor",
+              "correctAnswer": "constructor",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96e",
+                "question": " Which method is automatically called when an object is created in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["run()", "main()", "constructor", "finalize()"],
+                "CorrectAnswer": "constructor",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "super",
+              "correctAnswer": "this",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd961",
+                "question": "Which keyword is used to refer to the current instance of a class?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["super", "this", "self", "instance"],
+                "CorrectAnswer": "this",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "break",
+              "correctAnswer": "break",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97d",
+                "question": "Which of these statements is used to stop a loop in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["stop", "break", "return", "exit"],
+                "CorrectAnswer": "break",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "30Java30",
+              "correctAnswer": "30Java1020",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd960",
+                "question": " What is the output of the following code snippet? System.out.println(10 + 20 + \"Java\" + 10 + 20);",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["30Java30", "Java1020", "30Java1020", "10Java2020"],
+                "CorrectAnswer": "30Java1020",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "abstract",
+              "correctAnswer": "interface",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd972",
+                "question": "Which keyword is used to create an interface in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["interface", "abstract", "implements", "extends"],
+                "CorrectAnswer": "interface",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "Stack",
+              "correctAnswer": "Heap",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd966",
+                "question": "In which memory area are objects created in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["Stack", "Heap", "Register", "Static"],
+                "CorrectAnswer": "Heap",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 0
+            }
+          ],
+          "totalMarks": 19
+        }
+      ]
+    },
+    {
+      "email": "ymanasareddy10@gmail.com",
+      "name": "Manasa",
+      "studentId": {
+        "$oid": "672f3735f635127b3d4fd954"
+      },
+      "_id": {
+        "$oid": "672f3735f635127b3d4fd954"
+      },
+      "afterWritingExams": [
+        {
+          "_id": "67319c1ff635127b3d4fd9b4",
+          "courseName": "java batch",
+          "answers": [
+            {
+              "answer": "2",
+              "correctAnswer": "2 (i.e., true and false)",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96c",
+                "question": "How many values can a boolean variable have in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["1", "2", "3", "4"],
+                "CorrectAnswer": "2 (i.e., true and false)",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "4 bytes",
+              "correctAnswer": "4 bytes",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95c",
+                "question": "In Java, int occupies how many bytes?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["2 bytes", "4 bytes", "8 bytes", "16 bytes"],
+                "CorrectAnswer": "4 bytes",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "super",
+              "correctAnswer": "super",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97f",
+                "question": "Which keyword is used to call the parent class constructor in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["this", "parent", "base", "super"],
+                "CorrectAnswer": "super",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "Constructors have the same name as the class.",
+              "correctAnswer": "Constructors have the same name as the class.",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95f",
+                "question": "Which of the following is true about a constructor?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "Constructors have the same name as the class.",
+                  "Constructors cannot be overloaded.",
+                  "Constructors must have a return type.",
+                  "Constructors are invoked explicitly using a method call."
+                ],
+                "CorrectAnswer": "Constructors have the same name as the class.",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "Integer.parseInt()",
+              "correctAnswer": "Integer.parseInt()",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd980",
+                "question": "Which of the following is used to convert a string to an integer in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "Integer.parseInt()",
+                  "int.parseInt()",
+                  "Integer.toInt()",
+                  "String.toInt()"
+                ],
+                "CorrectAnswer": "Integer.parseInt()",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.014Z",
+                "updatedAt": "2024-11-09T11:47:17.014Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "Pointer-based",
+              "correctAnswer": "Pointer-based",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd964",
+                "question": "Which of these is not a feature of Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "Object-oriented",
+                  "Secure",
+                  "Platform-independent",
+                  "Pointer-based"
+                ],
+                "CorrectAnswer": "Pointer-based",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "30Java30",
+              "correctAnswer": "30Java1020",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd960",
+                "question": " What is the output of the following code snippet? System.out.println(10 + 20 + \"Java\" + 10 + 20);",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["30Java30", "Java1020", "30Java1020", "10Java2020"],
+                "CorrectAnswer": "30Java1020",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "extends, implements",
+              "correctAnswer": "extends, implements",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97a",
+                "question": "Which keyword is used in Java to inherit a class and implement an interface?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "extends, implements",
+                  "implement, extends",
+                  "extends, extend",
+                  "implement, implement"
+                ],
+                "CorrectAnswer": "extends, implements",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "Heap",
+              "correctAnswer": "Heap",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd966",
+                "question": "In which memory area are objects created in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["Stack", "Heap", "Register", "Static"],
+                "CorrectAnswer": "Heap",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "start()",
+              "correctAnswer": "start()",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95d",
+                "question": "Which method is used to start a thread execution in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["run()", "start()", "execute()", "init()"],
+                "CorrectAnswer": "start()",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "8 bytes",
+              "correctAnswer": "8 bytes",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd975",
+                "question": "What is the size of a double in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["4 bytes", "8 bytes", "16 bytes", "32 bytes"],
+                "CorrectAnswer": "8 bytes",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "int MY_CONSTANT = 10;",
+              "correctAnswer": "final int MY_CONSTANT = 10;",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96d",
+                "question": "Which of the following is the correct syntax to declare a constant in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "const int MY_CONSTANT = 10;",
+                  "final int MY_CONSTANT = 10;",
+                  "int MY_CONSTANT = 10;",
+                  "constant int MY_CONSTANT = 10;"
+                ],
+                "CorrectAnswer": "final int MY_CONSTANT = 10;",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "int arr[] = new int[5];",
+              "correctAnswer": "int arr[] = new int[5];",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd977",
+                "question": "Which of the following statements correctly declares an array in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "int arr[] = new int[5];",
+                  "int arr[5];",
+                  "int arr = new int[5];",
+                  "arr{5};"
+                ],
+                "CorrectAnswer": "int arr[] = new int[5];",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "String s = new String(\"Hello\");",
+              "correctAnswer": "Both A and B",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd968",
+                "question": "Which of these is the correct way to create an object of the String class?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "String s = new String(\"Hello\");",
+                  "String s = \"Hello\";",
+                  "Both A and B",
+                  "None of the above"
+                ],
+                "CorrectAnswer": "Both A and B",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "Both A and B",
+              "correctAnswer": "Both A and B",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd968",
+                "question": "Which of these is the correct way to create an object of the String class?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "String s = new String(\"Hello\");",
+                  "String s = \"Hello\";",
+                  "Both A and B",
+                  "None of the above"
+                ],
+                "CorrectAnswer": "Both A and B",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "25",
+              "correctAnswer": "25",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96b",
+                "question": "What will be the output of the following code?  System.out.println(5 * 5);",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["10", "15", "25", "30"],
+                "CorrectAnswer": "25",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "this",
+              "correctAnswer": "this",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd961",
+                "question": "Which keyword is used to refer to the current instance of a class?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["super", "this", "self", "instance"],
+                "CorrectAnswer": "this",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "No default value",
+              "correctAnswer": "No default value",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95a",
+                "question": "What is the default value of a local variable in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "null",
+                  "0",
+                  "Depends on the data type",
+                  "No default value"
+                ],
+                "CorrectAnswer": "No default value",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "It will give a compile-time error.",
+              "correctAnswer": "It will give a compile-time error.",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd963",
+                "question": "What will happen if we declare the main method as private in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  " It will run normally.",
+                  "It will give a runtime error.",
+                  "It will give a compile-time error.",
+                  "It will execute but will be considered deprecated."
+                ],
+                "CorrectAnswer": "It will give a compile-time error.",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "abstract",
+              "correctAnswer": "final",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95b",
+                "question": "Which keyword is used to prevent inheritance in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["final", "static", "private", "abstract"],
+                "CorrectAnswer": "final",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "Blueprint for objects",
+              "correctAnswer": "Blueprint for objects",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd979",
+                "question": "In Java, a class is a:",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "Blueprint for objects",
+                  " Instance of an object",
+                  "Variable",
+                  "Method"
+                ],
+                "CorrectAnswer": "Blueprint for objects",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "6",
+              "correctAnswer": "6",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97b",
+                "question": "What is the output of the following code?   int x = 5; System.out.println(++x);",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["4", "5", "6", "7"],
+                "CorrectAnswer": "6",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "repeat",
+              "correctAnswer": "repeat",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97c",
+                "question": "Which of the following is not a loop in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["for", "while", "repeat", "do-while"],
+                "CorrectAnswer": "repeat",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "All of the above",
+              "correctAnswer": "All of the above",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd970",
+                "question": "Which of the following is used to handle exceptions in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "try and catch",
+                  "throw",
+                  "throws",
+                  "All of the above"
+                ],
+                "CorrectAnswer": "All of the above",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "Integer",
+              "correctAnswer": "Integer",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd965",
+                "question": " Which of the following is a wrapper class in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int", "Integer", "float", "String"],
+                "CorrectAnswer": "Integer",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "double",
+              "correctAnswer": "double",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd976",
+                "question": "Which of the following data types can hold the largest value?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int", "long", "float", "double"],
+                "CorrectAnswer": "double",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "extends",
+              "correctAnswer": "extends",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd969",
+                "question": "Which keyword is used to inherit a class in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["this", "extends", "implements", "import"],
+                "CorrectAnswer": "extends",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "It is used to exit a loop or switch statement.",
+              "correctAnswer": "It is used to exit a loop or switch statement.",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd971",
+                "question": "Which statement is true about the break keyword?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": [
+                  "It is used to exit a loop or switch statement.",
+                  " It is used to pause execution.",
+                  "It only works in for loops.",
+                  " It can only be used in if statements."
+                ],
+                "CorrectAnswer": "It is used to exit a loop or switch statement.",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "int num;",
+              "correctAnswer": "int num;",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd978",
+                "question": "Which of the following is the correct way to declare a variable to store an integer value in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int num;", "integer num;", "num int;", "Int num;"],
+                "CorrectAnswer": "int num;",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "break",
+              "correctAnswer": "break",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97d",
+                "question": "Which of these statements is used to stop a loop in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["stop", "break", "return", "exit"],
+                "CorrectAnswer": "break",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "boolean",
+              "correctAnswer": "String",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd959",
+                "question": "Which of the following is not a primitive data type in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int", "boolean", "String", "char"],
+                "CorrectAnswer": "String",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "String",
+              "correctAnswer": "String",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd959",
+                "question": "Which of the following is not a primitive data type in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["int", "boolean", "String", "char"],
+                "CorrectAnswer": "String",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.009Z",
+                "updatedAt": "2024-11-09T11:47:17.009Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "main()",
+              "correctAnswer": "constructor",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96e",
+                "question": " Which method is automatically called when an object is created in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["run()", "main()", "constructor", "finalize()"],
+                "CorrectAnswer": "constructor",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 0
+            },
+            {
+              "answer": "define",
+              "correctAnswer": "define",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd96a",
+                "question": "Which of the following is not a control flow statement in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["if", "for", "switch", "define"],
+                "CorrectAnswer": "define",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.011Z",
+                "updatedAt": "2024-11-09T11:47:17.011Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "char",
+              "correctAnswer": "char",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd97e",
+                "question": "Which data type would you use to store a single character in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["String", "char", "Character", "boolean"],
+                "CorrectAnswer": "char",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.013Z",
+                "updatedAt": "2024-11-09T11:47:17.013Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "public",
+              "correctAnswer": "public",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd95e",
+                "question": "Which of these access specifiers can be used for a top-level class in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["private", "protected", "public", "static"],
+                "CorrectAnswer": "public",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.010Z",
+                "updatedAt": "2024-11-09T11:47:17.010Z"
+              },
+              "correctMarks": 1
+            },
+            {
+              "answer": "interface",
+              "correctAnswer": "interface",
+              "defaultMarks": 1,
+              "question": {
+                "_id": "672f4bc4f635127b3d4fd972",
+                "question": "Which keyword is used to create an interface in Java?",
+                "examId": "154001",
+                "topic": "core java",
+                "level": "Easy",
+                "answers": ["interface", "abstract", "implements", "extends"],
+                "CorrectAnswer": "interface",
+                "DefaultMarks": 1,
+                "DefaultTimeToSolve": 60,
+                "Difficulty_Level": "Easy",
+                "QuestionType": "MCQ",
+                "courseName": "Fullstack Java",
+                "__v": 0,
+                "createdAt": "2024-11-09T11:47:17.012Z",
+                "updatedAt": "2024-11-09T11:47:17.012Z"
+              },
+              "correctMarks": 1
+            }
+          ],
+          "totalMarks": 30
+        }
+      ]
+    }
+  ],
+  "createdAt": {
+    "$date": "2024-11-11T05:54:39.172Z"
+  },
+  "updatedAt": {
+    "$date": "2024-11-11T06:30:26.664Z"
+  },
+  "__v": 0
+}
